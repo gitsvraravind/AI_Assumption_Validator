@@ -1,0 +1,45 @@
+#def analyze_assumptions(document_text, doc_type):
+ #   prompt = f"""
+#You are a senior business consultant and risk advisor.
+
+#Analyze the following {doc_type} document.
+
+#Your task:
+#You are a senior management consultant specializing in decision quality and risk assessment.
+
+#Your objective is NOT to summarize the document.
+#Your objective is to evaluate the quality of assumptions underlying the decision-making.
+
+#Analyze the document and produce the following sections:
+
+#1. Explicit Assumptions
+ #  - Assumptions that are clearly stated in the document.
+
+#2. Implicit / Hidden Assumptions
+ #  - Assumptions that are not stated but must be true for the plan to succeed.
+
+#3. High-Risk Assumptions
+ #  - Assumptions with high uncertainty or high impact if proven false.
+  # - For each, classify risk as Low / Medium / High and explain why in one sentence.
+   #- Explain why in one sentence
+
+#4. Missing Validations or Evidence
+ #  - Data, analysis, or proof that is required but not provided.
+
+#5. Recommended Risk-Reduction Actions
+ #  - For each High-Risk assumption:
+  #   - What should be changed or added
+   #  - Where in the document it should be addressed
+    # - What evidence or validation is needed
+
+#6. Decision-Critical Questions
+ #  - Questions leadership should ask before approving or funding this plan.
+
+#Guidelines:
+#- Do NOT summarize the document.
+#- Be concise and structured.
+#- Focus on decision risk, not writing quality.
+#- Use bullet points.
+
+#Be concise, structured, and practical.
+#If assumptions are vague or overlapping, consolidate them. Avoid generic statements.
